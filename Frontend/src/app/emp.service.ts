@@ -7,7 +7,8 @@ import { getCurrencySymbol } from '@angular/common';
   providedIn: 'root'
 })
 export class EmpService {
-  server_address: string = 'http://localhost:3000';
+  // server_address: string = 'http://localhost:3000';
+  server_address: string = '/api';
   // message : String = " ";
   // EmpServerErr: Boolean = false;
 
